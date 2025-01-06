@@ -14,7 +14,12 @@ h1 {
     color: #6df161;
 }
 
-div {
+.schedule {
+    border: 1px dotted red;
+    text-align: center;
+}
+
+.flex-container {
     border: 1px solid red; 
     /* ^^ debugger */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,7 +30,9 @@ div {
     margin: 20px;
 }
 
-.item-one{
+.one,
+.two {
+    border: 1px solid red;
     align-self: flex-end;
 
 }
